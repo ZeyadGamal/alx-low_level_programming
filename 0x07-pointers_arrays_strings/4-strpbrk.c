@@ -1,3 +1,4 @@
+#include "main.h"
 /**
  * _strpbrk - searches a string for any set of bytes
  * @s: string s
