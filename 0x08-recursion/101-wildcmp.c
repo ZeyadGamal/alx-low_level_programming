@@ -3,7 +3,7 @@
 /**
  * wildcmp - Compare strings
  * @s1: string 1
- * @s1: string 2
+ * @s2: string 2
  * Return: 1 if identical, 0 otherwise
  */
 
