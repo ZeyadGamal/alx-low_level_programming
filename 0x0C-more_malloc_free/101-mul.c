@@ -62,11 +62,12 @@ void errors(void)
 int main(int argc, char *argv[])
 {
 	char *s1, *s2;
-	int len1, len2, len_total, i;
+	int len1, len2, len_total, i, carry, digit1, digit2, a;
 	int *result;
 
 	s1 = argv[1];
 	s2 = argv[2];
+	a = 0;
 
 	if (argc != 3 || !is_digit(s1) || !is_digit(s2))
 		errors();
