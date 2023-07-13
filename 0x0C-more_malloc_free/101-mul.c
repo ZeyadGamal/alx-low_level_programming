@@ -62,7 +62,7 @@ void errors(void)
 int main(int argc, char *argv[])
 {
 	char *s1, *s2;
-	int len1, len2, len_total, i, carry, digit1, digit2, a;
+	int len1, len2, len, i, carry, digit1, digit2, a;
 	int *result;
 
 	s1 = argv[1];
@@ -74,8 +74,8 @@ int main(int argc, char *argv[])
 	len1 = _strlen(s1);
 	len2 = _strlen(s2);
 
-	len_total = len1 + len2 + 1;
-	result = malloc(sizeof(int) * len_total);
+	len = len1 + len2 + 1;
+	result = malloc(sizeof(int) * len);
 	if (result == NULL)
 		return (1);
 	for (i = 0; i <= len1 + len2; i++)
