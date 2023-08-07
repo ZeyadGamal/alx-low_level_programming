@@ -60,7 +60,7 @@ int main(int argc, char *argv[])
 			dprintf(STDERR_FILENO,
 			"Error: Can't write to %s\n", argv[2]);
 			free(buff);
-			exit(98);
+			exit(99);
 		}
 		re = read(file_from, buff, 1024);
 		file_to = open(argv[2], O_WRONLY | O_APPEND);
